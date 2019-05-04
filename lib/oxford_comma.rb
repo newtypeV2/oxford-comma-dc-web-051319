@@ -5,6 +5,9 @@ if array.length ==1
 elsif array.length==2
   printString << "#{array.first} and #{array.last}"
 else
+#printString << "#{array.first},"
+
+#trial1
 array.each do |x|
 if array.last==x
   printString << " and #{x}"
